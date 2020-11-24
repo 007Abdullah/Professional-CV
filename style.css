@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #CCC;
+}
+div[class ~= "fisst-row"]{
+     
+    margin-top: 100px;
+}
+div[class ~= "col_first"] {
+    margin: 0;
+    padding: 0;
+    
+    background-color: #CCC;
+    float: left;
+    overflow: auto;
+    
+}
+
+header {
+    background-color: #CCC;
+
+    margin-top: 25px;
+}
+
+.head-name {
+    color: #504D4D;
+    font-size: 30px;
+    font-family: "MS Serif", "New York", serif;
+    pointer-events: none;
+    text-align: center;
+}
+
+.head-tag {
+    color: #504D4D;
+    font-family: "MS Serif", "New York", serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+div[class ~= "col_second"]{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #CCC;
+    float: right;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size:15px;
+    margin-top: 20px;
+    font-family:"MS Serif", "New York", serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: #504D4D;
+    display: block;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+    font-family:"MS Serif", "New York", serif;
+    font-size:15px;
+    list-style:none;
+    text-transform: uppercase;
+        
+}
+
+li a:hover {
+    text-decoration: none;
+    list-style:none;
+	color:#06F;
+	transition: .5s ease;
+}
+/* Second row star han yaha sa pic wegra text wegra sa  */
+div[class ~="second-row"]{
+    border: 1px solid black;
+   
+    
+}
+div[class ~= "firssst-col"]{
+   border: 1px solid black;
+    margin: 0;
+   padding: 0;
+   
+   
+   
+   
+
+}
+.circle{
+    width: 360px; 
+	height: 360px;
+	object-fit:cover;
+	outline:0;
+	background-color: rgb(94, 5, 5);
+	
+    opacity:0.9;
+    margin: 10px auto 10px auto;
+    
+    
+}
+.circle img{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 0 auto;
+    display: inline;
+}
+/* .circle img
+{
+   
+    height: 380px;
+	display: inline;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 10px auto 10px auto;
+} */
